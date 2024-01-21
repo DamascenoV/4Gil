@@ -1,0 +1,28 @@
+name: for_gil
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  launch_at_startup: ^0.2.2
+  dotenv: ^4.2.0
+  geolocator: ^10.1.0
+  package_info_plus: ^5.0.1
+  http: ^1.2.0
+  battery_plus: ^5.0.2
+  background_location: ^0.11.8
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
